@@ -1,0 +1,16 @@
+{
+  "name": "readmycoffeeapi",
+  "version": "1.0.0",
+  "description": "Get the coffee based on your mood",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiscar Castro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0"
+  }
+}
