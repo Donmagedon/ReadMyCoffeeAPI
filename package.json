@@ -4,7 +4,10 @@
   "description": "Get the coffee based on your mood",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install",
+    "start": "node app.js"
+  
   },
   "author": "Luiscar Castro",
   "license": "ISC",
