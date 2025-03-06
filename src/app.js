@@ -13,6 +13,9 @@ app.use((req, res, next) => {
   next();
 });
 app.use(bodyParser.json())
+app.get("/",(req,res)=>{
+  res.send("Read my coffee")
+})
 app.use("/api/generate_coffee", generate_coffee);
 app.use("/api/questions", questions);
 app.listen(3030,"0.0.0.0", () => {
