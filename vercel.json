@@ -3,7 +3,7 @@
     "builds": [],
     "routes": [
       {
-        "src": "/api/(.*)",
+        "src": "/(.*)",
         "dest": "/src/app.js"
       }
     ]
