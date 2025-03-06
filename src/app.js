@@ -12,7 +12,8 @@ const bodyParser = require('body-parser')
 //   res.setHeader("Access-Control-Allow-Credentials", true);
 //   next();
 // });
-}app.use(bodyParser.json())
+// }
+app.use(bodyParser.json())
 app.get("/",(req,res)=>{
   res.send("Read my coffee")
 })
