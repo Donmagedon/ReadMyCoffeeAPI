@@ -18,6 +18,6 @@ app.get("/",(req,res)=>{
 })
 app.use("/api/generate_coffee", generate_coffee);
 app.use("/api/questions", questions);
-app.listen(3030,"0.0.0.0", () => {
+app.listen(3030, () => {
   console.log("I'm alive!");
 });
