@@ -2,10 +2,10 @@
   "name": "readmycoffeeapi",
   "version": "1.0.0",
   "description": "Get the coffee based on your mood",
-  "main": "src/app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js",
+    "start": "node ./src/app.js",
     "install": "npm prune --production"
   
   },
